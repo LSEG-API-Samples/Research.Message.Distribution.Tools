@@ -1,7 +1,7 @@
 # Research Message Distribution Tools
 ## Overview
 
-[](flow.png)
+![](flow.png)
 
 ## Tools Description
 
