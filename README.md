@@ -5,7 +5,7 @@
 
 ## Tools Description
 
-1. Get subscriptions
+1. **Get subscriptions**
    - Get all subscriptions
         ```
         python researchMessages.py -g
@@ -14,7 +14,7 @@
         ```
    	    python researchMessages.py -g -s <subscriptionId>
         ```
-2. Create a new subscription
+2. **Create a new subscription**
     - Create a new subscription but not download research report
         ```
         python researchMessages.py -c
@@ -31,7 +31,7 @@
         ```
         python researchMessages.py -c -r -l
         ```
-3. Poll the message queue from the existing subscriptions
+3. **Poll the message queue from the existing subscriptions**
     - Poll the message queue but not download research report
         ```
         python researchMessages.py -p -s <subscription id>
@@ -49,7 +49,7 @@
         python researchMessages.py -p -r -s <subscription id> -l
         ```
 	
-4. Delete all subscriptions
+4. **Delete all subscriptions**
     - Delete all subscriptions
         ```
         python researchMessages.py -d
