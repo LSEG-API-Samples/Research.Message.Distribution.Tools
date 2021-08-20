@@ -201,6 +201,7 @@ def startResearchAlerts(downloadReports, subscriptionId=None, isRawResponse=Fals
                 print("Getting research, press BREAK to exit...")
                 if downloadReports:
                     try:
+                        os.mkdir(REPORTS_DIR_NAME)
                         os.mkdir("{}/{}".format(REPORTS_DIR_NAME, currentSubscriptionID))
                     except:
                         pass
